@@ -1,0 +1,3 @@
+q1 = What is 2 ** 13 ?
+q2 =  What why?
+q3 = Who what when?
