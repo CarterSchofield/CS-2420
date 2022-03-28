@@ -31,3 +31,5 @@ for questions in Q_bank:
             question
 timer2 = time.time()
 print("Total time for answering questions was: " , timer2 - timer1)
+
+#TEST
