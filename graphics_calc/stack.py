@@ -1,21 +1,37 @@
+# stack class
+
 class Stack:
+    
     def __init__(self):
-        self.List=[]
-
-    def Push(self, x):
+        self.A = []
+        self.size = 0
+    
+    def push(self, x):
+        #adds to the top of stack
         self.A.append(x)
-
-    def pop(self): #Returns none if isEmpty = true
+        self.size += 1
+    
+    def pop(self):
+        #returns and removes from top of stack
         if self.isEmpty():
             return None
+        else:
+            self.size -= 1
             return self.A.pop()
-
-    def top(self): #returns none if isEmpty
+        
+    
+    def top(self):
+        #return whats on top of stack
         if self.isEmpty():
             return None
-        return self.A[+1]
-
+        else:
+            return self.A[-1]
+        
     def isEmpty(self):
-        if len(A) == 0:
+        # .empty is a built in python function that will return a boolean - Doesn't work
+        if self.size == 0:
+            return True
+        else:
             return False
-        else: return True
+            
+    
