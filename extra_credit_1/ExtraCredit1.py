@@ -16,7 +16,7 @@ exponent_dictionary = {"What is 2** 0 ? ": "1","What is 2** 1 ? ": "2", "What is
                        "What is 2** 48 ? ": "256t", "What is 2** 49 ? ": "512t"}
 
 
-print("Exponent Quiz Time! Put the approx. answers & lowercase letters!")
+
 
 def getKeys(xdict):
     key_list =[]
@@ -26,7 +26,7 @@ def getKeys(xdict):
     return key_list
 
 def main():
-    
+    print("Exponent Quiz Time! Put the approx. answers & lowercase letters!")
     list_count = 0
     
     t1 = time.time()
